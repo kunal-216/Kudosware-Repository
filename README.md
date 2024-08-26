@@ -22,6 +22,7 @@ The Job Portal Application is a web platform designed to streamline the job appl
 - **Frontend**: Built with React.js, this handles the user interface and user interactions.
 - **Backend**: Powered by Node.js and Express.js, this manages server-side logic and API routes.
 - **Database**: MongoDB is used for storing user data, including profile details, images, and resumes.
+![Example Database Page](./frontend/src/assets/DatabasePage.jpeg)
 
 ### Functionality
 
@@ -34,6 +35,8 @@ The Job Portal Application is a web platform designed to streamline the job appl
 - **Profile Images**: Access via URL: `http://<frontend-deployed-link>/images/<filename>`
 - **Resumes**: Access via URL: `http://<frontend-deployed-link>/resume/<filename>`
 - The filenames here can be accessed from the database.
+![Profile Image Page](./frontend/src/assets/ProfileImage.jpeg)
+![Resume Page](./frontend/src/assets/ResumePage.jpeg)
 
 ### And these files can be accessed from the image_uploads and resume_uploads in the backend repository.
 
@@ -49,9 +52,14 @@ The Job Portal Application is a web platform designed to streamline the job appl
 ## Pages
 
 1. **Home Page**: Contains the navbar, header, and footer. Provides general information and navigation to other parts of the application.
+![Job Portal Home Page](./frontend/src/assets/HomePage.jpeg)
 2. **Contact Page**: Features a contact form and contact details for user inquiries.
+![Contact Us Page](./frontend/src/assets/ContactPage.jpeg)
 3. **Signup/Login Page**: Includes forms for user registration and login. Form fields include image, name, gender, email, password, bio, and resume.
+![Sign Up Page](./frontend/src/assets/SignupPage.jpeg)
+![Login Page](./frontend/src/assets/LoginPage.jpeg)
 4. **Profile Page**: Displays user details (excluding password) and provides a link to view/download the resume.
+![Profile Page](./frontend/src/assets/ProfilePage.jpeg)
 
 ## Components
 
