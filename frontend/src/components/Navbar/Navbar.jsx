@@ -30,7 +30,7 @@ const Navbar = () => {
       </Link>
       <div className='flex space-x-6 relative right-5'>
         <Link to="/" className='hover:text-gray-400 text-xl'>Home</Link>
-        <Link to="/user" className='hover:text-gray-400 text-xl'>Sign Up</Link>
+        {token ? <></>: <Link to="/user" className='hover:text-gray-400 text-xl'>Sign Up</Link>}
         <Link to="/contact" className='hover:text-gray-400 text-xl'>Contact Us</Link>
       </div>
       <div className='flex space-x-4'>
