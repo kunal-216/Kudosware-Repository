@@ -29,6 +29,14 @@ The Job Portal Application is a web platform designed to streamline the job appl
 - **Profile Management**: After logging in, users can view and update their profile details, including their resume. The profile page displays all user details except the password field, and provides a link to view and download the resume.
 - **Image and File Management**: Profile images and resumes are managed using Multer. Files are stored on the server and can be accessed via URLs.
 
+## Accessing Images and Resumes
+
+- **Profile Images**: Access via URL: `http://<frontend-deployed-link>/images/<filename>`
+- **Resumes**: Access via URL: `http://<frontend-deployed-link>/resume/<filename>`
+- The filenames here can be accessed from the database.
+
+### And these files can be accessed from the image_uploads and resume_uploads in the backend repository.
+
 ## Features
 
 - Navbar with dynamic user icon and authentication status
@@ -61,13 +69,13 @@ The Job Portal Application is a web platform designed to streamline the job appl
 
 2. Install frontend dependencies:
    ```bash
-   cd client
+   cd frontend
    npm install
    ```
 
 3. Install backend dependencies:
    ```bash
-   cd ../server
+   cd ../backend
    npm install
    ```
 
@@ -75,27 +83,19 @@ The Job Portal Application is a web platform designed to streamline the job appl
 
 5. Start the backend server:
    ```bash
-   cd server
+   cd backend
    node server.js
    ```
 
 6. Start the frontend development server:
    ```bash
-   cd ../client
-   npm start
+   cd ../frontend
+   npm run dev
    ```
 
 ## Technologies Used
 
-- **Frontend**: React.js
+- **Frontend**: Vite.js (Framework of React.js)
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **File Management**: Multer
-
-## Accessing Images and Resumes
-
-- **Profile Images**: Access via URL: `http://<frontend-deployed-link>/images/<filename>`
-- **Resumes**: Access via URL: `http://<frontend-deployed-link>/resume/<filename>`
-- The filenames here can be accessed from the database.
-
-### And these files can be accessed from the image_uploads and resume_uploads in the backend repository.
