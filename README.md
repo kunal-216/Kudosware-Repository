@@ -98,4 +98,4 @@ The Job Portal Application is a web platform designed to streamline the job appl
 - **Resumes**: Access via URL: `http://<frontend-deployed-link>/resume/<filename>`
 - The filenames here can be accessed from the database.
 
-# And these files can be accessed from the image_uploads and resume_uploads in the backend repository.
+### And these files can be accessed from the image_uploads and resume_uploads in the backend repository.
