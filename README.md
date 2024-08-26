@@ -89,7 +89,7 @@ The Job Portal Application is a web platform designed to streamline the job appl
 
 6. Start the frontend development server:
    ```bash
-   cd ../nodemon
+   cd ../frontend
    npm run dev
    ```
 
